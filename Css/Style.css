@@ -1,0 +1,90 @@
+*
+{
+    margin:0;
+    padding:0;
+   font-family: 'Courier New', Courier, monospace;
+   color:goldenrod;
+}
+.App
+{
+    position:absolute;
+    width:90.5em;
+    height:42.9em;
+    top:2.5%;
+    left:1.4%;
+    border-radius:0.2em;
+    background-color: cadetblue;
+    box-shadow: 10px 10px 10px 10px #242424;
+    background-image: url('../Img/realistic\ rainy\ weather\ background.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    opacity: 0.9;
+}
+.Blackp
+{
+ width: 100%;
+ height: 100%;
+
+
+}
+.appcontainer
+{
+    position: absolute;
+    width:30em;
+    height:31em;
+    background-color:black;
+    margin-left:30em;
+    margin-top:3.5em;
+    border:3px solid rgb(94, 68, 4);
+    border-radius:0.3em;
+    box-shadow: 5px 5px 10px 5px goldenrod;
+    color:white;
+    text-align: center;
+    padding-top:5em;
+    opacity: 0.8;
+}
+.Search
+{
+    margin-top:1.5em;
+    font-size:large;
+    padding:0.1em;
+    width: 22em;
+    background-color: transparent;
+    outline: none;
+    border:none;
+    border-bottom:3px solid goldenrod;
+    color:goldenrod;
+    padding-left:0.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Search:focus 
+{
+    transition: 0.5s all ease-in-out;
+    border-bottom:3px solid lightgreen;
+
+}
+.content
+{
+    width:95%;
+    margin-left:0.7em;
+    height:19em;
+    margin-top:2em;
+    border:3px solid rgb(94, 68, 4);
+border-radius:0.2em;
+text-align: center;
+padding-top:2em;
+}
+.content p 
+{
+    margin-top:1em;
+    font-size:1.5em;
+    border:none;
+    outline:none;
+     width:17em;
+    color:goldenrod;
+    margin-left:1em;
+    margin-right:0.5em;
+    padding:0.1em;
+    border-radius:0.2em;
+}
